@@ -9,9 +9,9 @@ const About = () => {
     })
 
     const ScrollTimeline = gsap.timeline({
-      ScrollTrigger: {
+      scrollTrigger: {
         trigger: "#about",
-        start: "top center",
+        start: "top center", 
       },
     })
     ScrollTimeline.from(titleSplit.words, {

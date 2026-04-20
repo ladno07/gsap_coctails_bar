@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Cocktails from "./components/Coctails"
 import About from "./components/About"
 import Art from "./components/Art"
+import Menu from "./components/Menu"
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 const App = () => {
@@ -16,10 +17,11 @@ const App = () => {
       <Cocktails/>
       <About/>
       <Art/>
+      <Menu/>
     </main>
   )
 }
 
 export default App
 
-// 1:15:18
+// 2:03:52
